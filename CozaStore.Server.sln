@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{B9BEA941
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Core", "Services\Users\CozaStore.Server.Users.Core\CozaStore.Server.Users.Core.csproj", "{0F384E7E-1CB7-4DEE-A420-6EFA18A2BBC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Database", "Services\Users\CozaStore.Server.Users.Database\CozaStore.Server.Users.Database.csproj", "{1CE9E4CC-5317-4E91-8C28-F6608A97A22B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{0F384E7E-1CB7-4DEE-A420-6EFA18A2BBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F384E7E-1CB7-4DEE-A420-6EFA18A2BBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F384E7E-1CB7-4DEE-A420-6EFA18A2BBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE9E4CC-5317-4E91-8C28-F6608A97A22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE9E4CC-5317-4E91-8C28-F6608A97A22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE9E4CC-5317-4E91-8C28-F6608A97A22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE9E4CC-5317-4E91-8C28-F6608A97A22B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B9BEA941-0077-486C-9F6C-93B8B999D028} = {AABBDD08-FFF8-45FC-8F18-8832DE074603}
 		{0F384E7E-1CB7-4DEE-A420-6EFA18A2BBC1} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
+		{1CE9E4CC-5317-4E91-8C28-F6608A97A22B} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DCFFA5B-27EA-48BB-97E5-7C38640AB41F}
