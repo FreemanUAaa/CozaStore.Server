@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Application", "Services\Users\CozaStore.Server.Users.Application\CozaStore.Server.Users.Application.csproj", "{C055929E-AFEE-49A1-BB79-D0C646D0DD73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Api", "Services\Users\CozaStore.Server.Users.Api\CozaStore.Server.Users.Api.csproj", "{69DAB222-0CD6-480E-ABC4-92F2E00990AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{C055929E-AFEE-49A1-BB79-D0C646D0DD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C055929E-AFEE-49A1-BB79-D0C646D0DD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C055929E-AFEE-49A1-BB79-D0C646D0DD73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DAB222-0CD6-480E-ABC4-92F2E00990AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DAB222-0CD6-480E-ABC4-92F2E00990AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DAB222-0CD6-480E-ABC4-92F2E00990AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DAB222-0CD6-480E-ABC4-92F2E00990AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{0F384E7E-1CB7-4DEE-A420-6EFA18A2BBC1} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
 		{1CE9E4CC-5317-4E91-8C28-F6608A97A22B} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
 		{C055929E-AFEE-49A1-BB79-D0C646D0DD73} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
+		{69DAB222-0CD6-480E-ABC4-92F2E00990AE} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DCFFA5B-27EA-48BB-97E5-7C38640AB41F}
