@@ -7,13 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{B9BEA941-0077-486C-9F6C-93B8B999D028}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Core", "Services\Users\CozaStore.Server.Users.Core\CozaStore.Server.Users.Core.csproj", "{0F384E7E-1CB7-4DEE-A420-6EFA18A2BBC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CozaStore.Server.Users.Core", "Services\Users\CozaStore.Server.Users.Core\CozaStore.Server.Users.Core.csproj", "{0F384E7E-1CB7-4DEE-A420-6EFA18A2BBC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Database", "Services\Users\CozaStore.Server.Users.Database\CozaStore.Server.Users.Database.csproj", "{1CE9E4CC-5317-4E91-8C28-F6608A97A22B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CozaStore.Server.Users.Database", "Services\Users\CozaStore.Server.Users.Database\CozaStore.Server.Users.Database.csproj", "{1CE9E4CC-5317-4E91-8C28-F6608A97A22B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Application", "Services\Users\CozaStore.Server.Users.Application\CozaStore.Server.Users.Application.csproj", "{C055929E-AFEE-49A1-BB79-D0C646D0DD73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CozaStore.Server.Users.Application", "Services\Users\CozaStore.Server.Users.Application\CozaStore.Server.Users.Application.csproj", "{C055929E-AFEE-49A1-BB79-D0C646D0DD73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Api", "Services\Users\CozaStore.Server.Users.Api\CozaStore.Server.Users.Api.csproj", "{69DAB222-0CD6-480E-ABC4-92F2E00990AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CozaStore.Server.Users.Api", "Services\Users\CozaStore.Server.Users.Api\CozaStore.Server.Users.Api.csproj", "{69DAB222-0CD6-480E-ABC4-92F2E00990AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Producers", "Services\Users\CozaStore.Server.Users.Producers\CozaStore.Server.Users.Producers.csproj", "{90DC9BD5-9991-4127-942D-F8EB9297AA67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{69DAB222-0CD6-480E-ABC4-92F2E00990AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69DAB222-0CD6-480E-ABC4-92F2E00990AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69DAB222-0CD6-480E-ABC4-92F2E00990AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DC9BD5-9991-4127-942D-F8EB9297AA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DC9BD5-9991-4127-942D-F8EB9297AA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DC9BD5-9991-4127-942D-F8EB9297AA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DC9BD5-9991-4127-942D-F8EB9297AA67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{1CE9E4CC-5317-4E91-8C28-F6608A97A22B} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
 		{C055929E-AFEE-49A1-BB79-D0C646D0DD73} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
 		{69DAB222-0CD6-480E-ABC4-92F2E00990AE} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
+		{90DC9BD5-9991-4127-942D-F8EB9297AA67} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DCFFA5B-27EA-48BB-97E5-7C38640AB41F}
