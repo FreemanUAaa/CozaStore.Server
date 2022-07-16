@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{262ECC25-87A0-475A-9332-67CE4F33AE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Messages", "Messages\CozaStore.Server.Messages\CozaStore.Server.Messages.csproj", "{6A310231-6753-4258-99CF-7C09A4068940}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A310231-6753-4258-99CF-7C09A4068940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A310231-6753-4258-99CF-7C09A4068940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A310231-6753-4258-99CF-7C09A4068940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A310231-6753-4258-99CF-7C09A4068940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A310231-6753-4258-99CF-7C09A4068940} = {262ECC25-87A0-475A-9332-67CE4F33AE7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DCFFA5B-27EA-48BB-97E5-7C38640AB41F}
