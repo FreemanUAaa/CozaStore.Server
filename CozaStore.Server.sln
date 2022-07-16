@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AABBDD08-FFF8-45FC-8F18-8832DE074603}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{B9BEA941-0077-486C-9F6C-93B8B999D028}"
@@ -16,6 +17,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CozaStore.Server.Users.Api", "Services\Users\CozaStore.Server.Users.Api\CozaStore.Server.Users.Api.csproj", "{69DAB222-0CD6-480E-ABC4-92F2E00990AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Users.Producers", "Services\Users\CozaStore.Server.Users.Producers\CozaStore.Server.Users.Producers.csproj", "{90DC9BD5-9991-4127-942D-F8EB9297AA67}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{262ECC25-87A0-475A-9332-67CE4F33AE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CozaStore.Server.Messages", "Messages\CozaStore.Server.Messages\CozaStore.Server.Messages.csproj", "{6A310231-6753-4258-99CF-7C09A4068940}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{90DC9BD5-9991-4127-942D-F8EB9297AA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90DC9BD5-9991-4127-942D-F8EB9297AA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90DC9BD5-9991-4127-942D-F8EB9297AA67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A310231-6753-4258-99CF-7C09A4068940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A310231-6753-4258-99CF-7C09A4068940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A310231-6753-4258-99CF-7C09A4068940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A310231-6753-4258-99CF-7C09A4068940}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +62,7 @@ Global
 		{C055929E-AFEE-49A1-BB79-D0C646D0DD73} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
 		{69DAB222-0CD6-480E-ABC4-92F2E00990AE} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
 		{90DC9BD5-9991-4127-942D-F8EB9297AA67} = {B9BEA941-0077-486C-9F6C-93B8B999D028}
+		{6A310231-6753-4258-99CF-7C09A4068940} = {262ECC25-87A0-475A-9332-67CE4F33AE7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DCFFA5B-27EA-48BB-97E5-7C38640AB41F}
