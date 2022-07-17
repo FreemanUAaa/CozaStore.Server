@@ -3,4 +3,6 @@
 public static class ExceptionStrings
 {
     public static string EmailIsAlreadyUse => "Email is already in use";
+
+    public static string NotFound => "Page not found";
 }
