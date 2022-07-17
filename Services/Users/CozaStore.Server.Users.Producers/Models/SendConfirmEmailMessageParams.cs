@@ -6,5 +6,5 @@ public class SendConfirmEmailMessageParams
 
     public string UserEmail { get; set; } = string.Empty;
 
-    public string ConfirmUrl { get; set; } = string.Empty;
+    public string ConfirmToken { get; set; } = string.Empty;
 }

@@ -27,7 +27,7 @@ public class EmailProducer : IEmailProducer
         {
             sendParams.UserName,
             sendParams.UserEmail,
-            sendParams.ConfirmUrl,
+            sendParams.ConfirmToken,
         }, CancellationToken.None);
     }
 }
