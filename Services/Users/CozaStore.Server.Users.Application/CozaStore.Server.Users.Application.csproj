@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CozaStore.Server.Users.Core\CozaStore.Server.Users.Core.csproj" />
+    <ProjectReference Include="..\CozaStore.Server.Users.Database\CozaStore.Server.Users.Database.csproj" />
+    <ProjectReference Include="..\CozaStore.Server.Users.Producers\CozaStore.Server.Users.Producers.csproj" />
+  </ItemGroup>
+
 </Project>
