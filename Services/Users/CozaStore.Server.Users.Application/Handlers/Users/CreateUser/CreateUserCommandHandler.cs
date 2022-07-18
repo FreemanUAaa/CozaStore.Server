@@ -38,7 +38,7 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand>
         
         string confirmEmailToken = await userManager.GenerateEmailConfirmationTokenAsync(user);
 
-        await emailProducer.SendConfirmEmailMessage(new()
+        await emailProducer.SendConfirmationEmailMessage(new()
         {
             ConfirmToken = confirmEmailToken,
             UserEmail = user.Email,

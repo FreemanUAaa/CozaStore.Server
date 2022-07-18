@@ -6,5 +6,5 @@ public interface ISendConfirmEmailMessage
 
     string UserEmail { get; set; }
 
-    string ConfirmUrl { get; set; }
+    string ConfirmationToken { get; set; }
 }

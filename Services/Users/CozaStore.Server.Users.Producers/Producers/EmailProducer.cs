@@ -1,4 +1,4 @@
-﻿using CozaStore.Server.Users.Producers.Constracts;
+﻿using CozaStore.Server.Users.Producers.Contracts;
 using CozaStore.Server.Users.Producers.Interfaces;
 using CozaStore.Server.Users.Producers.Models;
 using MassTransit;
@@ -15,9 +15,9 @@ public class EmailProducer : IEmailProducer
     public EmailProducer(ISendEndpointProvider sendEndpointProvider, ILogger<EmailProducer> logger) =>
         (this.sendEndpointProvider, this.logger) = (sendEndpointProvider, logger);
 
-    public async Task SendConfirmEmailMessage(SendConfirmEmailMessageParams sendParams)
+    public async Task SendConfirmationEmailMessage(SendConfirmEmailMessageParams sendParams)
     {
-        Uri queue = new(ConstractStrings.SendConfirmEmailMessageQueue);
+        Uri queue = new(ContractStrings.SendConfirmEmailMessageQueue);
 
         ISendEndpoint endpoint = await sendEndpointProvider.GetSendEndpoint(queue);
 
@@ -27,7 +27,7 @@ public class EmailProducer : IEmailProducer
         {
             sendParams.UserName,
             sendParams.UserEmail,
-            sendParams.ConfirmToken,
+            ConfirmationToken = sendParams.ConfirmToken,
         }, CancellationToken.None);
     }
 }

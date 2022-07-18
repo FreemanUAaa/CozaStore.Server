@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace CozaStore.Server.Users.Application.Handlers.Users.SendConfirmEmailMessage;
+namespace CozaStore.Server.Users.Application.Handlers.Users.SendConfirmationEmailMessage;
 
 public class SendConfirmEmailMessageCommandValidator : AbstractValidator<SendConfirmEmailMessageCommand>
 {

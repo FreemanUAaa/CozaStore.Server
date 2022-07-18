@@ -4,7 +4,7 @@ using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 
-namespace CozaStore.Server.Users.Application.Handlers.Users.SendConfirmEmailMessage;
+namespace CozaStore.Server.Users.Application.Handlers.Users.SendConfirmationEmailMessage;
 
 public class SendConfirmEmailMessageCommandHandler : IRequestHandler<SendConfirmEmailMessageCommand>
 {
@@ -23,7 +23,7 @@ public class SendConfirmEmailMessageCommandHandler : IRequestHandler<SendConfirm
 
         string confirmEmailToken = await userManager.GenerateEmailConfirmationTokenAsync(user);
 
-        await emailProducer.SendConfirmEmailMessage(new()
+        await emailProducer.SendConfirmationEmailMessage(new()
         {
             ConfirmToken = confirmEmailToken,
             UserEmail = user.Email,

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace CozaStore.Server.Users.Application.Handlers.Users.SendConfirmEmailMessage;
+namespace CozaStore.Server.Users.Application.Handlers.Users.SendConfirmationEmailMessage;
 
 public class SendConfirmEmailMessageCommand : IRequest
 {

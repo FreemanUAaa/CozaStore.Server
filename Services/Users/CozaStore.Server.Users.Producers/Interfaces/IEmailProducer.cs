@@ -4,5 +4,5 @@ namespace CozaStore.Server.Users.Producers.Interfaces;
 
 public interface IEmailProducer
 {
-    Task SendConfirmEmailMessage(SendConfirmEmailMessageParams sendParams);
+    Task SendConfirmationEmailMessage(SendConfirmEmailMessageParams sendParams);
 }
