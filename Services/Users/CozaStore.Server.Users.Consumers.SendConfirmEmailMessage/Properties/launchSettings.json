@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CozaStore.Server.Users.Consumers.SendConfirmationEmailMessage": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
